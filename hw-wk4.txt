@@ -32,6 +32,18 @@ this loop  will executed as long as i < 5 is true, the statement will logged on 
 After the code block has been executed, the program returns to step 2 aka condition
 
 7.
-for (let i = 1; i <=5; i++) {
-    if (i % 2 !==0) console.log(i);
+for (i = 0; i < 10; i++) {
+  console.log(i);
+  if (i == 6) {
+    break;
+  }
+}
+
+8.
+
+for (i = 0; i < 10; i++) {
+  if (i == 5) {
+   continue;
+  }
+  console.log(i);
 }
