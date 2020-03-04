@@ -1,0 +1,37 @@
+1. 
+Loops are great when you want to do the same task/run the same code over and over again, and each time with a different value.
+
+
+2.
+for(initialization; condition; final-expression) {
+    statement
+}
+
+for (step 1; step 2; step 3) {
+    // code block to be executed
+}
+
+for (let i = 0; i < 5; i++) {
+    console.log(`Hello World`);
+}
+
+3.
+The for loop loops through a block of code a specified number of times.
+
+4.
+for (let i = 0; i < 5; i++) {
+    console.log(`Hello World`);
+}
+
+this loop runs 5 times. We get 5 Hello world messages.
+this loop  will executed as long as i < 5 is true, the statement will logged on console.
+
+5. for block ({})
+
+6.
+After the code block has been executed, the program returns to step 2 aka condition
+
+7.
+for (let i = 1; i <=5; i++) {
+    if (i % 2 !==0) console.log(i);
+}
