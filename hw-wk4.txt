@@ -72,18 +72,22 @@ function myFunction() {
 
 10. const person = {firstName:"John", lastName:"Doe", age:46};
 
-11. <html>
-<body>
+11.12.13
 
-<p id="Age"></p>
-
-<script>
-const person = {firstName:"John", lastName:"Doe", age:46};
-document.getElementById("Age").innerHTML = person["age"];
-</script>
-
-</body>
-</html>
+let letters = ["a", "b", "c", "d", "e", "f"];
+    
+    for(let letter in letters) {
+        console.log(letter + "");  // for...in iterates the property names
+        
+    }
+    
+    
+    
+    let greet = "Hello World!";
+    
+    for(let character of greet) {
+        console.log(character + ""); // for...of iterates over the property values
+    }
 
 14. 
 The difference with for...in is:
