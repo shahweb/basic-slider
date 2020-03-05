@@ -85,3 +85,11 @@ document.getElementById("Age").innerHTML = person["age"];
 </body>
 </html>
 
+14. 
+The difference with for...in is:
+
+    for...of iterates over the property values
+    for...in iterates the property names
+
+
+
