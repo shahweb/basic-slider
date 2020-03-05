@@ -40,10 +40,48 @@ for (i = 0; i < 10; i++) {
 }
 
 8.
+<html>
+<body>
 
-for (i = 0; i < 10; i++) {
-  if (i == 5) {
-   continue;
+<p>Click the button</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="carName"></p>
+
+<script>
+function myFunction() {
+  var cars = ["BMW", "Volvo", "Saab", "Ford"];
+  var text = ""
+  var i;
+  for (i = 0; i < cars.length; i++) {
+    if (cars[i] === "Saab") {
+      continue;
+    }
+    text += cars[i] + "<br>";
   }
-  console.log(i);
+  document.getElementById("carName").innerHTML = text;
+  carName.style.color = `#228b22`;
 }
+</script>
+
+</body>
+</html>
+
+9. let fruits = ["Apple", "Orange", "Plum"];
+
+10. const person = {firstName:"John", lastName:"Doe", age:46};
+
+11. <html>
+<body>
+
+<p id="Age"></p>
+
+<script>
+const person = {firstName:"John", lastName:"Doe", age:46};
+document.getElementById("Age").innerHTML = person["age"];
+</script>
+
+</body>
+</html>
+
