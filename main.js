@@ -30,4 +30,3 @@ buttonLeft.addEventListener("click", () => {
 buttonRight.addEventListener("click", () => {
   addSlideDivs(1);
 });
-
